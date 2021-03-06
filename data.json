@@ -1,0 +1,92 @@
+[
+    {
+        "Nombre": "Pablo",
+        "Telefono": "912121211",
+        "Email": "test1@mail.com",
+        "Foto": "images/mascota1.jpg",
+        "Pais": "Perú",
+        "Descripcion": "Alguna informacion de la mascota #1",
+        "ID": 0
+    },
+    {
+        "Nombre": "Chase",
+        "Telefono": "912121212",
+        "Email": "test2@mail.com",
+        "Foto": "images/mascota1.jpg",
+        "Pais": "Perú",
+        "Descripcion": "Alguna informacion de la mascota #2",
+        "ID": 1
+    },
+    {
+        "Nombre": "Sportacus",
+        "Telefono": "913141413",
+        "Email": "test3@mail.com",
+        "Foto": "images/mascota1.jpg",
+        "Pais": "Bolivia",
+        "Descripcion": "Alguna informacion de la mascota #3",
+        "ID": 2
+    },
+    {
+        "Nombre": "Soraya",
+        "Telefono": "912121214",
+        "Email": "test4@mail.com",
+        "Foto": "images/mascota1.jpg",
+        "Pais": "Colombia",
+        "Descripcion": "Alguna informacion de la mascota #4",
+        "ID": 3
+    },
+    {
+        "Nombre": "Ronaldinho",
+        "Telefono": "912121215",
+        "Email": "test5@mail.com",
+        "Foto": "images/mascota1.jpg",
+        "Pais": "Argentina",
+        "Descripcion": "Alguna informacion de la mascota #5",
+        "ID": 4
+    },
+    {
+        "Nombre": "Perla",
+        "Telefono": "912121216",
+        "Email": "test6@mail.com",
+        "Foto": "images/mascota1.jpg",
+        "Pais": "Chile",
+        "Descripcion": "Alguna informacion de la mascota #6",
+        "ID": 5
+    },
+    {
+        "Nombre": "Micha",
+        "Telefono": "912121217",
+        "Email": "test7@mail.com",
+        "Foto": "images/mascota1.jpg",
+        "Pais": "Ecuador",
+        "Descripcion": "Alguna informacion de la mascota #7",
+        "ID": 6
+    },
+    {
+        "Nombre": "Travieso",
+        "Telefono": "912121218",
+        "Email": "test8@mail.com",
+        "Foto": "images/mascota1.jpg",
+        "Pais": "Perú",
+        "Descripcion": "Alguna informacion de la mascota #8",
+        "ID": 7
+    },
+    {
+        "Nombre": "Spooky",
+        "Telefono": "912121219",
+        "Email": "test9@mail.com",
+        "Foto": "images/mascota1.jpg",
+        "Pais": "Argentina",
+        "Descripcion": "Alguna informacion de la mascota #9",
+        "ID": 8
+    },
+    {
+        "Nombre": "Goku",
+        "Telefono": "912121210",
+        "Email": "test10@mail.com",
+        "Foto": "images/mascota1.jpg",
+        "Pais": "Perú",
+        "Descripcion": "Alguna informacion de la mascota #10",
+        "ID": 9
+    }
+]

@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CABECERA */
+
+.cabecera-principal{
+    height: 80px;
+    background-color: palegoldenrod;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* CONTENEDOR MASCOTAS */
+
+.contenedor-mascotas{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    background-color: whitesmoke;
+    z-index: 1;
+}
+
+/* CONTENEDOR MASCOTAS FILA */
+
+/* .contenedor-mascotas-fila{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1em;
+    margin: 20px 0;
+} */
+
+
+/* CONTENEDOR MASCOTA */
+
+.contenedor-mascota{
+    border: 1px solid black;
+    padding: 15px;
+    background-color: white;
+}
+    .contenedor-mascota header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contenedor-mascota img{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 50%;
+        height: 200px;
+    }
+
+    /* .contenedor-mascota div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    } */
+
+    .contenedor-mascota p{
+        padding: 5px 0;
+    }
+
+/* CONTENEDOR AGREGAR MASCOTA */
+
+.contenedor-agregar{
+    width: 400px;
+    border: 1px solid black;
+    position: fixed;
+    top: 150px;
+    left: 440px;
+    background-color: paleturquoise;
+    border-radius: 15px;
+    display: none;
+
+}
+    .contenedor-agregar header{
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+    }
+
+    .contenedor-agregar h2{
+        width: 90%;
+        text-align: center;
+    }
+
+    .contenedor-agregar .cerrar-agregar{
+        width: 10%;
+        background-color: white;
+        border: none;
+    }
+
+    .contenedor-agregar input{
+        display: block;
+        margin: 5px auto;
+        border-radius: 5px;
+        padding: 5px;
+        width: 80%;
+        border: 1px solid black;
+    }
+
+    .contenedor-agregar textarea{
+        display: block;
+        margin: 10px auto;
+        border-radius: 10px;
+        width: 80%;
+        height: 80px;
+    }
+
+    .contenedor-agregar .confirmar-agregar{
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+        padding: 7px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+
+.contenedor-agregar-active{
+    display: initial;
+    z-index: 2;
+}
