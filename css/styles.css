@@ -15,6 +15,10 @@
     padding: 0 20px;
 }
 
+.agregar-mascota{
+    padding: 10px;
+}
+
 /* CONTENEDOR MASCOTAS */
 
 .contenedor-mascotas{
@@ -42,6 +46,7 @@
     border: 1px solid black;
     padding: 15px;
     background-color: white;
+    border-radius: 10px;
 }
     .contenedor-mascota header{
         display: flex;
@@ -111,6 +116,7 @@
         border-radius: 10px;
         width: 80%;
         height: 80px;
+        padding: 5px;
     }
 
     .contenedor-agregar .confirmar-agregar{
@@ -125,4 +131,74 @@
 .contenedor-agregar-active{
     display: initial;
     z-index: 2;
+}
+
+.contenedor-mascotas-active{
+    opacity: 0.5;
+}
+
+/* CONTENEDOR ACTUALIZAR MASCOTA */
+
+.contenedor-actualizar{
+    width: 400px;
+    border: 1px solid black;
+    position: fixed;
+    top: 150px;
+    left: 440px;
+    background-color: paleturquoise;
+    border-radius: 15px;
+    display: none;
+
+}
+    .contenedor-actualizar header{
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+    }
+
+    .contenedor-actualizar h2{
+        width: 90%;
+        text-align: center;
+    }
+
+    .contenedor-actualizar .cerrar-actualizar{
+        width: 10%;
+        background-color: white;
+        border: none;
+    }
+
+    .contenedor-actualizar input{
+        display: block;
+        margin: 5px auto;
+        border-radius: 5px;
+        padding: 5px;
+        width: 80%;
+        border: 1px solid black;
+    }
+
+    .contenedor-actualizar textarea{
+        display: block;
+        margin: 10px auto;
+        border-radius: 10px;
+        width: 80%;
+        height: 80px;
+        padding: 5px;
+    }
+
+    .contenedor-actualizar .confirmar-actualizar{
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+        padding: 7px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+
+.contenedor-actualizar-active{
+    display: initial;
+    z-index: 2;
+}
+
+.contenedor-mascotas-active{
+    opacity: 0.5;
 }
